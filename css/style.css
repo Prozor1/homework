@@ -140,3 +140,59 @@ title{
             width: 320px;
             background: url(../img/icon3.png) no-repeat top;
         }
+
+        /* Order form */
+
+        .form{
+            background: #ecf3f8;
+            padding-top: 104px;
+            padding-bottom: 102px;
+            text-align: center;
+            box-sizing: border-box;
+            
+
+        }
+
+        .form-title{
+            font-size: 30px;
+        }
+
+        .form-form{
+            padding-top: 65px;
+            
+            
+        }
+
+        .form-input{
+            width: 341px;
+            border: 1px solid #bfb8d1;
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            border-radius: 0px;
+            height: 44px;
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        .btn-form{
+            border: 0;
+            cursor: pointer;
+            display: inline;
+            margin: 22px;
+            width: 343px;
+        }
+
+        /* Footer */
+
+        .footer{
+            padding: 60px 0;
+            text-align: center;
+            background: #164d7a;
+        }
+
+        .credits{
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+
