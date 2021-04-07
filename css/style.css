@@ -1,0 +1,142 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* header */
+
+.header{
+    background: rgba(76,188,252,1);
+    background: -moz-linear-gradient(left, rgba(76,188,252,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,188,252,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(76,188,252,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(76,188,252,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(76,188,252,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(76,188,252,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4cbcfc', endColorstr='#3790d9', GradientType=1 );
+color: #fff;
+padding-bottom: 225px;
+padding-top: 65px;
+
+}
+
+p{
+    line-height: 1.67em;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer{
+    margin-top: 140px;
+    width: 575px;
+}
+
+title{
+    font-size: 37px;
+}
+
+.title span{
+    font-size: 59px;
+}
+
+.intro{
+    margin-bottom: 40px;
+    width:405px;
+    margin-top: 40px;
+}
+
+    .desktop{
+        margin-top: 60px;
+        
+    }
+
+    .btn{
+        background: #ffd429;
+        color: #2e2a1b;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 0;
+        display: block;
+        width: 205px;
+        padding: 19px 0;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        transition: all o.5s ease ;
+
+    }
+
+    .btn:hover{
+        background: #e4be27;
+    }
+
+        /* section-trip */
+
+        .trip{
+            padding-top: 105px;
+            padding-bottom: 102px;
+            
+        }
+
+        .sec-title{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .future{
+            display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        text-align: center;
+        }
+
+        .free-time{
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 19px;
+        }
+
+        .trip-future{
+            width: 320px;
+            background: url(../img/icon1.png) no-repeat center top;
+            padding-top: 100px;
+
+        }
+
+
+        .free-text{
+            margin-top: 17px;
+        }
+
+        .bright-journey{
+            width: 320px;
+            background: url(../img/icon2.png) no-repeat center top;
+        }
+
+        .value-creation{
+            width: 320px;
+            background: url(../img/icon3.png) no-repeat top;
+        }
