@@ -214,6 +214,14 @@ title{
             .container{
                 width: 960px;
             }
+
+            .btn {
+                width: 100%;
+            }
+
+            .header{
+                padding-bottom: 115px;
+            }
            
         }
 
@@ -221,16 +229,18 @@ title{
         @media screen and (max-width: 992px){
             .container{
                 width: 720px;
-                
-            }
+                text-align: center;
+                }             
 
+            
             .wrapper{
                 flex-direction: column;
             }
 
             .offer{
                 width: 100%;
-                margin-top: 100px;
+                padding-top: 50px;
+                
             }
 
             .intro{
@@ -239,8 +249,26 @@ title{
 
             .desktop{
                 display: block;
+                width: 508px;
                 margin: 60px auto 0;
 
+            }
+
+            .future{
+                flex-direction: column;
+            }
+
+            .trip-future{
+                width: auto;
+		        margin-bottom: 30px;
+            }
+
+            .form-input{
+                width: 100%;
+            }
+
+            .free-text{
+                width: 100%;
             }
            
         }
@@ -249,6 +277,15 @@ title{
         @media screen and (max-width: 768px){
             .container{
                 width: 540px;
+            }
+
+            .input {
+                width: 100%;
+            }
+            .btn-form {
+                margin-left: 0;
+                margin-top: 20px;
+                width: 100%;
             }
            
         }
