@@ -249,7 +249,7 @@ title{
 
             .desktop{
                 display: block;
-                width: 508px;
+                /* width: 508px; */
                 margin: 60px auto 0;
 
             }
@@ -279,6 +279,9 @@ title{
                 width: 540px;
             }
 
+            .desktop {
+                width: 100%;
+            }
             .input {
                 width: 100%;
             }
