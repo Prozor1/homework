@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Домашнее задание</title>
@@ -17,17 +18,17 @@
 <body>
     <header id="header" class="header">
         <div class="container">
-            <img src="img/logo.png" alt="logo">
+            <img src="img/logo.png" alt="logo" class="logo animated fadeInDown">
             <div class="wrapper">
-                <div class="offer">
+                <div class="offer animated fadeInLeft">
                     <h1 class="title">С помощью верстки <br> я создам ту жизнь, о которой <br><span>мечтаю</span> !
                     </h1>
                     <p class="intro">
                         Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
                     </p>
-                    <a href="#" class="btn">Двигаться к мечте!</a>
+                    <a href="#" class="btn " id="btn">Двигаться к мечте!</a>
                 </div>
-                <img src="img/d2.png" alt="desktop" class="desktop">
+                <img src="img/d2.png" alt="desktop" class="desktop animated fadeInRight">
             </div>
         </div>
     </header>
@@ -36,9 +37,9 @@
 
    <section id="trip" class="trip">
        <div class="container">
-           <h2 class="sec-title">Что меня ждет впереди</h2>
-           <div class="future">
-               <div class="trip-future">
+           <h2 class="sec-title animated">Что меня ждет впереди</h2>
+           <div class="future animated">
+               <div class="trip-future ">
                    <h3 class="free-time">Свободное время</h3>
                    <p class="free-text">
                     Мне нужно свободное время на семью и самое настоящее
@@ -77,8 +78,11 @@
    </section>
    <footer id="footer" class="footer">
     <div class="container">
-        <p class="credits">© Все мои мечты защищены моим трудолюбием</p>
+        <p class="credits">© Все мои мечты защищены моим трудолюбием!!!</p>
     </div>
    </footer>
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
 </html>
